@@ -1,6 +1,6 @@
 # Spell Checker Sample
 
-> We assume you've read the [Python's Readme](./../)
+> We assume you've read the [Python's Readme](./../../)
 
 The sample code has comments explaining each section. The `.proto` file is
 included, so you can see the fields in `CorrectRequest` and `CorrectResponse`

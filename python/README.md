@@ -3,7 +3,7 @@
 In order to use python samples, you need to generate the python classes from
 your `.proto` file. Here we explain how.
 
-> Here we assume you've read [the main Readme](./../)
+> Here we assume you've read [the main Readme](./../README.md)
 
 ### Step 1: Install dependencies
 Install `protoc` module:  

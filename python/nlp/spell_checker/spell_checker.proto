@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package ai.nlp.spell_checker.v1;
+
+service SpellChecker {
+  rpc Correct(CorrectRequest) returns (CorrectResponse);
+}
+
+message CorrectRequest {
+  string text = 1;
+}
+
+message CorrectResponse {
+  repeated SuggestionsPerWord suggestions = 1;
+}
+
+message SuggestionsPerWord {
+  repeated SuggestedTerm suggestions = 1;
+}
+
+message SuggestedTerm {
+  string text = 1;
+  float probability = 2;
+}

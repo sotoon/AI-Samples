@@ -36,4 +36,4 @@ some sample codes on our services to make it easier for you to use:
 * [NLP / Spell Checker](./nlp/spell_checker/)
 
 ---
-[Go Back](./../)
+[Go Back](./../README.md)
